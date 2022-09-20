@@ -1,0 +1,123 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* -------------- header v ------------ */
+
+.header-0 {
+    background-image: url("../media/img/network-connections.jpg");
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+#hidshow {
+    display: none;
+}
+
+.nav-container {
+    position: fixed;
+    background-color: #333333;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.nav-bar {
+    align-items: center;
+}
+
+.logo-home {
+    width: 20px;
+    cursor: pointer;
+}
+
+.logo-home:hover {
+    opacity: 0.5;
+}
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-ul li a:hover {
+    color: wheat;
+}
+
+._search {
+    border-radius: 25px;
+    padding: 0px 10px 0px 5px;
+    display: none;
+    border: none;
+    outline: none;
+}
+
+.find {
+    position: relative;
+    top: -1px;
+    right: 53px;
+    display: none;
+    cursor: pointer;
+}
+
+._close {
+    position: relative;
+    top: -2px;
+    right: 50px;
+    display: none;
+    cursor: pointer;
+}
+
+.cart_reg {
+    width: 200px;
+    height: auto;
+    background-color: white;
+    position: relative;
+    left: 985px;
+    display: none;
+    text-align: center;
+    z-index: 1;
+}
+
+.cart_reg ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.header-1 {
+    padding-top: 150px;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;    
+}
+
+.header-1 a {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.slider {
+    box-shadow: 1px 20px 26px -14px rgba(0,0,0,0.9);
+}
+
+/* --------------- header ^ -------------- */
+
+/* ----------------- main v ----------------- */
+
+.products {
+    height: 300px;
+    padding: 5px;
+}
+
+.product {
+    height: 230px;
+}
+
+/* ------------------ main ^ ---------------- */

@@ -1,0 +1,150 @@
+.bg-nav {
+    background-color: rgba(0, 0, 0, 0.0);
+    box-shadow: 0px 5px 5px 0px;           
+}
+
+.bg-nav1 {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.bg-nav1 li a {
+    color: white;
+}
+
+.bg-nav1 li a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.bg-img {
+    background-image: url("../img/blue-sky-clouds.jpg");
+    height: 500px;            
+}
+
+.headercont {
+    width: 500px;
+    height: 350px;
+}
+
+.headerfoot {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.0);
+    box-shadow: 0px -5px 5px 0px; 
+}
+
+.headerfoot ul li {
+    float: left;
+    margin-right: 20px;
+    list-style-type: circle;          
+}
+
+.headerfoot ul li:hover {
+    color: yellow;
+    cursor: pointer;
+    list-style-type: disc;
+}
+
+.bgimg1 {
+    background-image: url("../img/1564692281879.jpg");
+    height: 500px;
+}
+
+.bgimg2 {
+    background-image: url("../img/Contact-background.jpg");
+    height: 700px;
+}
+
+.rowitem {
+    width: 280px;
+    height: 285px;
+}
+
+#bottomul li {
+    list-style-type: none;
+    margin-right: 5px;
+    float: left;
+    padding: 5px;
+    color: rgb(163, 163, 7);
+}
+
+#bottomul li:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+.img3 {
+    border-bottom-right-radius: 100px;
+}
+
+.bgimg3 {
+    background-image: url("../img/blue-fractal-background1.jpg");
+    height: 600px;
+}
+
+/* @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css); */
+
+.starrating > input {
+    display: none;
+}
+
+.starrating > label:before { 
+    content: url("../icon/star_filled.png");
+    margin: 2px;
+    font-size: 8em;
+    font-family: FontAwesome;
+    display: inline-block; 
+}
+
+.starrating > label {
+    color: #222222;
+}
+
+.starrating > input:checked ~ label { 
+    color: #ffca08 ; 
+}
+
+.starrating > input:hover ~ label { 
+    color: #ffca08 ;  
+}
+
+.stara {
+    color: #ffca08;
+}
+
+.stara:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.headerfoot1 ul li {
+    float: left;
+    margin-right: 20px;
+    list-style-type: circle;          
+}
+
+.headerfoot1 ul li:hover {
+    color: yellow;
+    cursor: pointer;
+    list-style-type: disc;
+} 
+
+.bgtriangle {
+    background-color: black;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 70px solid black;
+    position: relative;
+    top: 70px;
+    left: 500px;
+}
+
+.endcont {
+    background-image: url("../img/political-world-map-hd.jpg");
+    height: 500px;
+}

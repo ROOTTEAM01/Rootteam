@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" href="{{asset('students_works/areg/1/style.css')}}">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+	<title>Clock by Areg</title>
+</head>
+<body>
+
+<div class="text"></div>
+	<div class="content">
+
+		<div class="code_1"></div>
+
+		<div class="clock">
+			<div class="hours">
+				<div class="num_1">
+					<div class="top"></div>
+					<div class="top_left"></div>
+					<div class="top_right"></div>
+					<div class="center"></div>
+					<div class="bottom_left"></div>
+					<div class="bottom_right"></div>
+					<div class="bottom"></div>
+				</div>
+				<div class="num_2">
+					<div class="top"></div>
+					<div class="top_left"></div>
+					<div class="top_right"></div>
+					<div class="center"></div>
+					<div class="bottom_left"></div>
+					<div class="bottom_right"></div>
+					<div class="bottom"></div>
+				</div>
+			</div>
+
+			<div class="point"></div>
+
+			<div class="minutes">
+				<div class="num_3">
+					<div class="top"></div>
+					<div class="top_left"></div>
+					<div class="top_right"></div>
+					<div class="center"></div>
+					<div class="bottom_left"></div>
+					<div class="bottom_right"></div>
+					<div class="bottom"></div>
+				</div>
+				<div class="num_4">
+					<div class="top"></div>
+					<div class="top_left"></div>
+					<div class="top_right"></div>
+					<div class="center"></div>
+					<div class="bottom_left"></div>
+					<div class="bottom_right"></div>
+					<div class="bottom"></div>
+				</div>
+			</div>
+
+			<div class="point"></div>
+
+			<div class="seconds">
+				<div class="num_5">
+					<div class="top"></div>
+					<div class="top_left"></div>
+					<div class="top_right"></div>
+					<div class="center"></div>
+					<div class="bottom_left"></div>
+					<div class="bottom_right"></div>
+					<div class="bottom"></div>
+				</div>
+				<div class="num_6">
+					<div class="top"></div>
+					<div class="top_left"></div>
+					<div class="top_right"></div>
+					<div class="center"></div>
+					<div class="bottom_left"></div>
+					<div class="bottom_right"></div>
+					<div class="bottom"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="code_2"></div>
+		
+	</div>
+
+	<script src="{{asset('students_works/areg/1/segments.js')}}"></script>
+</body>
+</html>

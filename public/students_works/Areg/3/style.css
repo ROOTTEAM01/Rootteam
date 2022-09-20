@@ -1,0 +1,122 @@
+.navi {
+    
+    background-color: #f8f9fa;
+}
+
+.content {
+    height: 100vh;
+}
+
+.navbar {
+    justify-content: start;
+}
+
+.navbar button {
+    outline: none;
+}
+
+.menu {
+    position: relative;
+    width: 36px;
+    height: 36px;
+}
+
+.menu:before, .menu:after {
+    position: absolute;
+    content: '';
+    width: 24px;
+    height: 2px;
+    background-color: blue;
+}
+
+.menu:before {
+    left: 8px;
+    bottom: 15px;
+}
+
+.menu:after {
+    left: 4px;
+    top: 15px;
+}
+
+.menuOpen:before {
+    transition: .4s;
+    transform: rotate(-90deg);
+}
+
+.menuOpen:after {
+    transition: .4s;
+    transform: rotate(90deg);
+}
+
+.menuClose:before, .menuClose:after {
+    transition: .4s;
+}
+
+li.nav-item {
+    padding-left: 3px;
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+.nav-item .nav-link span {
+    display: none;
+}
+
+.user-pic {
+    width: 40px;
+}
+
+.org button, .org img {
+    margin-right: 5px;
+}
+
+.user-inf {
+    background-color: #f8f9fa;
+}
+
+.social a {
+    font-size: 1.7rem;
+}
+
+.team img {
+    width: 138px;
+}
+
+.data {
+    color: #c6c6c6; 
+    font-size: .8rem
+}
+
+.input_search{
+    background-image: url(img/magnifying-glass.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+.section{
+    background-image: url(img/envelope.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+}
+.faCircle div{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background: purple;
+}
+.liCircle div:hover {
+    background: black;
+}
+.main{
+    display: none;
+ }
+.aside{
+    border-style: solid;
+    border-color: LightGray;
+    border-width: 1px 1px 1px 0px;
+}

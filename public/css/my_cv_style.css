@@ -1,0 +1,85 @@
+.slider{
+	position: relative;
+}
+.content{
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+	display: none;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(255,255,255,0.8);
+  cursor: pointer;
+}
+.prev{
+  position: absolute;
+  right: 85px;
+  padding: 7px;
+  top: 50px;
+  background-color: rgba(255,255,255,0.3);
+}
+.next{
+  position: absolute;
+  right: 50px;
+  padding: 7px;
+  top: 50px;
+  background-color: rgba(255,255,255,0.3);
+}
+.prev-second:hover, .next-second:hover {
+  background-color: rgba(255,255,255,0.8);
+  cursor: pointer;
+}
+.prev-second{
+  position: absolute;
+  right: 85px;
+  padding: 7px;
+  top: 50px;
+  background-color: rgba(255,255,255,0.3);
+}
+.next-second{
+  position: absolute;
+  right: 50px;
+  padding: 7px;
+  top: 50px;
+  background-color: rgba(255,255,255,0.3);
+}
+.prev-third:hover, .next-third:hover {
+  background-color: rgba(255,255,255,0.8);
+  cursor: pointer;
+}
+.prev-third{
+  position: absolute;
+  right: 85px;
+  padding: 7px;
+  top: 50px;
+  background-color: rgba(255,255,255,0.3);
+}
+.next-third{
+  position: absolute;
+  right: 50px;
+  padding: 7px;
+  top: 50px;
+  background-color: rgba(255,255,255,0.3);
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  opacity: 1;
+}
+.slider-item{
+	display: none;
+}
+.slider-item-third{
+	display: none;
+}
+
+.slider-content{
+  position: relative;
+}
+
+@keyframes fade {
+  from {opacity: 0.4} 
+  to {opacity: 1}
+}

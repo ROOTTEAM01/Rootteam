@@ -1,0 +1,57 @@
+.timer {
+    width: 121px;
+    height: 121px;
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    background-color: #387dff;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.16);
+} 
+
+.inner {
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+    background-color: #f6f6f7;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.16);
+    z-index: 3;
+  }
+
+.timer_seconds {
+    color: #387dff;
+    font-size: 54px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.inner>p {
+    color: #545f7e;
+    font-size: 18px;
+}
+
+.item {
+    position: relative;
+    margin-top: 5px;
+    margin-right: 2px;
+  }
+  
+  
+  svg {
+   -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+  
+  .circle_animation {
+  stroke-dasharray: 188;
+  stroke-dashoffset: 188;
+  transition: all 1s linear;
+  }

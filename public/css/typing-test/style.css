@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+margin: 0px auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    min-width: 320px;
+    max-height: 1158px;
+    background-color: #f6f6f7;
+}
+
+.section_top {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1920px;
+    min-width: 320px ;
+    height: 990px;
+}
+
+.content {
+margin: 31px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.title {
+    margin-top: 46px;
+    max-width: 844px; 
+    height: 127px;
+    min-width: 300px;
+}
+
+.title>h1 {
+    font-size:  2.6vw;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 1px;
+    color: #383f45;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+.text_content {
+    color: #373737;
+    border-radius: 5px;
+    max-width: 1120px;
+    min-width: 1120px;
+    height: 563px;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.16);
+    margin: 32px auto;
+    background-color: #ffffff;
+    padding: 10px 40px 0 40px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+    font-size: 30px;
+    font-weight: 400;
+    font-stretch: normal;
+}
+.text_box {
+    position: relative;
+}
+
+.text_box>span {
+    font-size: 30px;
+    line-height: 76px;
+    letter-spacing: 4.83px;
+}
+
+div[class^="row"] {
+    font-size: 30px;
+    line-height: 76px;
+    letter-spacing: 4.83px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .word {
+     white-space: pre;
+ }
+
+ .left_img {
+    max-width: 185px;
+    min-height: 704px;
+    margin-top: 286px;
+    margin-left: 88px;
+    margin-right: 127px;
+}
+
+.left_img>img {
+    width: 100%;
+}
+
+.right_img {
+     max-width: 270px;
+     min-width: 50px;
+     margin-right: 88px;
+     margin-top: 100px;
+     margin-left: 42px;
+ }
+
+.right_img>img {
+    width: 100%;
+ }
+
+
+.left_margin, .right_margin {
+    width: 25px;
+    height: 25px;
+    display: none;
+}
+
+
+.section_bottom {
+    margin-top: -70px;
+    max-width: 1920px;
+    min-width: 320px
+}
+
+.bottom_img {
+    max-width: 1920px;
+    min-width: 320px;
+    height: 233px;
+}
+
+.bottom_img>img {
+    width: 100%;
+}
+
+.input_text {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 40px 0 40px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 76px;
+    letter-spacing: 4.83px;
+    opacity: 0;
+    overflow: auto;
+}
+
+ /* text behavior  ---->*/
+.char.wrong {
+    color: deeppink;
+}
+
+.char.done {
+    color: forestgreen;
+}
+
+.char.under_line {
+    color: #387dff;
+    border-bottom: 6px solid #387dff;
+    transition: .2s ease-in-out
+}
+
+.char.last.under_line {
+    color: #387dff;
+    border-bottom: 6px solid #387dff;
+    transition: .2s ease-in-out
+}
+
+.line {
+    margin: 75px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #d9d9d9;
+ }
+
+ .line.mini {
+    margin: 53px 0;
+ }
+
+.line.diss {
+    opacity: 0;
+    transition:'.4s ease-in-out';
+}
+
+.line_box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+@media (max-width: 1750px) {
+    .text_content {
+       min-width: 915px;
+       font-size: 10px;
+    }
+
+    div[class^="row"] {
+        width: 100%;
+        font-size: 30px;
+        line-height: 76px;
+        letter-spacing: 4.50px;
+     }
+
+}
+
+@media (max-width: 1550px) {
+    .text_content {
+       min-width: 850px;
+    }
+    .title>h1 {
+        font-size: 3.22vw;
+    }
+    .left_img {
+         margin-left: 100px;
+         margin-right: 100px;
+     }
+     .right_img {
+         margin-right: 50px;
+     }
+}
+
+@media (max-width: 1350px) {
+    .text_content {
+       min-width: 800px;
+    }
+    div[class^="row"] {
+        font-size: 30px;
+        line-height: 76px;
+        letter-spacing: 4.50px;
+     }
+    .left_img {
+         margin-right: 80px;
+         margin-left: 70px;
+     }
+     .right_img {
+         margin-left: 20px;
+     }
+}
+
+
+@media (max-width: 1250px) {
+    .text_content {
+       min-width: 750px;
+    }
+     .left_img {
+         margin-right: 50px;
+         margin-left: 35px;
+     }
+
+     .right_img {
+         margin-left: 20px;
+         margin-right: 22px;
+     }
+}
+
+@media (max-width: 1150px) {
+    .text_content {
+        min-width: 700px;
+     }
+}
+
+@media (max-width: 1024px) {
+    .text_content { min-width: 680px; }
+     .right_img>img { height: 500px; }     
+}
+
+@media (max-width: 1023px) {
+    .title>h1 {
+        font-size: 40px;
+    }
+    .container {
+        max-width: 1023px;
+    }
+    .content {
+        max-width: 1000px;
+    }
+
+    .text_content { 
+        min-width: 300px;
+        width: 100%;
+     }
+
+     .right_img {
+         display: none;
+     }
+     .left_img {
+         display: none;
+     }
+
+     .bottom_img {
+         margin-top: 10px;
+     }
+
+    .left_margin, .right_margin {
+        width: 32px;
+        height: 15px;
+        display: block;
+        margin-top: 500px;
+        opacity: 0;
+    }
+
+}
+
+@media (max-width: 824px) {
+    .title>h1 {
+        font-size: 4.8vw;
+    }
+}
+
+@media (max-width: 761px) {
+    .title>h1 {
+        font-size: 5.5vw;
+    }
+}
+
+@media (max-width: 572px) {
+    .title>h1 {
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 500px) {
+    div[class^="row"] {
+        font-size: 25px;
+        line-height: 76px;
+        letter-spacing: 4.50px;
+     }
+
+     .title>h1 {
+         font-size: 27px;
+         line-height: 35px;
+     }
+}
+
+@media (max-width: 361px) {
+    .title>h1 {
+        font-size: 25px;
+        letter-spacing: 0.48px;
+        line-height: 32px;
+    }
+    .text_content {
+        padding: 10px 25px 0 25px;
+        min-width: 280px;
+    }
+
+    .text_box :first-child {
+        text-indent: 30px
+    }
+
+    div[class^="row"] {
+        font-size: 20px;
+        line-height: 54px;
+        letter-spacing: 4.50px;
+     }
+
+     #pointer {
+         opacity: 0;
+         visibility: hidden;
+     }
+
+     .line {
+        margin-top: 52px;  
+     }
+
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Portfolio Website Templates</title>
+    	<link rel="stylesheet" href="{{asset('students_works/vazgen/2/style.css')}}">
+    	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	</head>
+
+    <body>
+    	<nav class="navbar navbar-expand-lg bg-light navbar-dark">
+		  <a class="navbar-brand" href="#" style = "font-weight: bold;">MOBIRISE</a>
+
+		  <button class="navbar-toggler NavToggler1" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		    <i class="fa fa-bars" aria-hidden="true" style = "color:black; font-size:30px;"></i>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item">
+		        <a class="nav-link NavLink" href="#">Portfolio Website Templates</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link NavLink2" href="#">Website Templates
+		        <ul>
+		        	<li>Resume Website Template</li><hr class = "UnderLine">
+		        	<li>CV Website Template</li><hr class = "UnderLine">
+		        	<li>Music Website Templates</li><hr class = "UnderLine">
+		        	<li>Website Homepage Template</li><hr class = "UnderLine">
+		        	<li>Mobile Website Template</li><hr class = "UnderLine">
+		        	<li>Real Estate Website Templates</li><hr class = "UnderLine">
+		        	<li>Single Page Website Template</li><hr class = "UnderLine">
+		        	<li>Basic Website Templates</li><hr class = "UnderLine">
+		        	<li>Company Website Templates</li><hr class = "UnderLine">
+		        	<li>Website Content Template</li><hr class = "UnderLine">
+		        	<li>Software Company Website Template</li><hr class = "UnderLine">
+		        	<li>Travel Website Templates</li><hr class = "UnderLine">
+		        	<li>Buy Website Templates</li><hr class = "UnderLine">
+		        	<li>Event Website Template</li><hr class = "UnderLine">
+		        	<li>Sample Website Templates </li><hr class = "UnderLine">
+		        	<li>Gym Website Templates</li><hr class = "UnderLine">
+		        	<li>About Us Template for Website</li><hr class = "UnderLine">
+		        </ul>
+		    	</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link NavLink3" href="#">More Website Templates
+		        	<ul>
+		        		<li>Business Website Templates</li><hr class = "UnderLine">
+		        		<li>eCommerce Website Templates</li><hr class = "UnderLine">
+		        		<li>Hotel Website Templates</li><hr class = "UnderLine">
+		        		<li>Website Landing Page Template</li><hr class = "UnderLine">
+		        		<li>Best Website Templates</li><hr class = "UnderLine">
+		        		<li>Portfolio Website Templates</li><hr class = "UnderLine">
+		        		<li>Shopping Website Template</li><hr class = "UnderLine">
+		        		<li>Online Store Website Template</li><hr class = "UnderLine">
+		        		<li>Free Website Design Templates</li><hr class = "UnderLine">
+		        		<li>One Page Website Template</li><hr class = "UnderLine">
+		        		<li>CSS Website Templates</li><hr class = "UnderLine">
+		        		<li>Website Layout Template</li><hr class = "UnderLine">
+		        		<li>Simple Website Templates</li><hr class = "UnderLine">
+		        		<li>Professional Website Templates</li><hr class = "UnderLine">
+		        		<li>Download Website Templates</li><hr class = "UnderLine">
+		        		<li>School Website Templates</li><hr class = "UnderLine">
+		        	</ul></a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+		<header>
+			<div class="container-fluid ContainerFluid1">
+				<div class="container">
+					<div class = "row RowClass1">
+						<div class = "col-md-12">
+							<div class = "Title">
+								<p class = "TitleHello">HELLO</p>
+							</div>
+							<div class = "Title2">
+								<p class = "TitleName">I am Mark and&nbsp;</p><p class = "TitleAnimation"></p>
+							</div>
+							<div class = "Title3">
+								<p class = "TitleSpec">SPECIALIZED IN DESIGN AND PHOTOGRAPHY</p>
+							</div>
+							<div class = "Title">
+							<div class="mbr-section-btn Button1">
+								<a class="btn-warning btn btn-md display-4 ButtonText" type="submit">ABOUT ME</a>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class = "container-fluid">
+				<div class = "container">
+					<p class = "TitleText">I'M SPECIALIZED IN</p>
+					<div class = "LineSmall"></div>
+					<p class = "TitleText2">Committed and energetic professional photographer with 7+ years' extensive experience in custom-made and specialized photography</p>
+					<div class = "row justify-content-center pt-5">
+						<div class = "col-md-6 col-lg-3 Element">
+							<div class = "card-img pb-3 align-left">
+								<i class = "fa fa-align-left ElementIcon" aria-hidden="true" style = "font-size:45px;"></i>
+							</div>
+							<p class = "ElementTitle">CONCEPTING</p>
+							<p class = "ElementText">Creative digital photographer, passionate about digital photography of several kinds, variations, acquired more than 7 years professional photography experience in HTML Template</p>
+						</div>
+						<div class = "col-md-6 col-lg-3 Element">
+							<div class = "card-img pb-3 align-left">
+								<i class = "fa fa-id-card-o ElementIcon" aria-hidden="true" style = "font-size:45px;"></i>
+							</div>
+							<p class = "ElementTitle">UI/UX</p>
+							<p class = "ElementText">Worked full time with the US Army, as a participant of the Personnel division, yet finished my time using Portfolio Website Templates, operating in the logistics area</p>
+						</div>
+						<div class = "col-md-6 col-lg-3 Element">
+							<div class = "card-img pb-3 align-left">
+								<i class = "fa fa-picture-o ElementIcon" aria-hidden="true" style = "font-size:45px;"></i>
+							</div>
+							<p class = "ElementTitle">VISUAL DESIGN</p>
+							<p class = "ElementText">Oversaw all aspects of workshop job as simple HTML resume developer and organisation administration consisting of economic, imaginative and also customer service processes</p>
+						</div>
+						<div class = "col-md-6 col-lg-3 Element">
+							<div class = "card-img pb-3 align-left">
+								<i class = "fa fa-thumbs-o-up ElementIcon" aria-hidden="true" style = "font-size:45px;"></i>
+							</div>
+							<p class = "ElementTitle">INTERACTION</p>
+							<p class = "ElementText">Familiar with various kinds of photography consisting of fashion, wild animals and undersea due to Portfolio Website Templates</p>
+						</div>
+						<div class = "emptydiv"></div>
+					</div>
+				</div>
+			</div>
+		</header>
+			<div class = "container-fluid">
+				<div class = "row">
+					<div class = "col-md-3 col-sm-6 col-lg-3 Element2">
+						<i class="fa fa-user"></i>
+						<p class = "ElementTitle2">Clients</p>
+						<p class = "ElementText2">37</p>
+					</div>
+					<div class = "col-md-3 col-sm-6 col-lg-3 Element3">
+						<i class="fa fa-rocket"></i>
+						<p class = "ElementTitle2">Aworde Winner</p>
+						<p class = "ElementText2">13</p>
+					</div>
+					<div class = "col-md-3 col-sm-6 col-lg-3 Element4">
+						<i class="fa fa-clock-o"></i>
+						<p class = "ElementTitle2">Hours Worked</p>
+						<p class = "ElementText2">900</p>
+					</div>
+					<div class = "col-md-3 col-sm-6 col-lg-3 Element5">
+						<i class="fa fa-magic"></i>
+						<p class = "ElementTitle2">Project Completed</p>
+						<p class = "ElementText2">40</p>
+					</div>
+				</div>
+			</div>
+			<div class = "container-fluid">
+				<div class = "container">
+					<p class = "TitleText">MY WORKING PROCESS</p>
+					<div class = "LineSmall"></div>
+					<p class = "Description">Conversant with different sorts of digital photography including style, wildlife and undersea due to HTML Website Template.</p>
+					<div class = "row">
+						<div class = "col-lg-3 col-md-6 col-12 ColName" style = "padding-top:50px;">
+							<div class = "Cricle">
+							<i class="fa fa-comments-o" aria-hidden="true"></i>
+							<div class = "CricleSmall">
+							<p style = "padding-top:15px;">1</p>
+							</div>
+							<div class = "ArrowRight"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+							</div>
+							<p class ="CricleTitle">DISCUSS THE PROJECT</p>
+							<p class = "CricleText">Creative digital photographer, passionate about digital photography of several kinds and also variations, acquired more than 7 years professional photography experience in HTML Personal Site Template <a href = "#">Learn more</a></p>
+						</div>
+						<div class = "col-lg-3 col-md-6 col-12 ColName" style = "padding-top:50px;">
+							<div class = "Cricle">
+							<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+							<div class = "CricleSmall">
+							<p style = "padding-top:15px;">2</p>
+							</div>
+							<div class = "ArrowRight3"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+							</div>
+							<p class ="CricleTitle">LOT OF CONCEPTING</p>
+							<p class = "CricleText">Worked full time with the US Army, as a participant of the Personnel division, yet finished my time using Resume Template, operating in the logistics area <a href = "#">Learn more</a></p>
+						</div>
+						<div class = "col-lg-3 col-md-6 col-12 ColName" style = "padding-top:50px;">
+							<div class = "Cricle">
+							<i class="fa fa-id-card-o ElementIcon" aria-hidden="true"></i>
+							<div class = "CricleSmall">
+							<p style = "padding-top:15px;">3</p>
+							</div>
+							<div class = "ArrowRight"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+							</div>
+							<p class ="CricleTitle">UX/UI PLANNING</p>
+							<p class = "CricleText">Oversaw all aspects of workshop job as Free HTML Resume Code developer and organisation administration consisting of economic, imaginative and customer service processes <a href = "#">Learn more</a></p>
+						</div>
+						<div class = "col-lg-3 col-md-6 col-12 ColName" style = "padding-top:50px;">
+							<div class = "Cricle">
+							<i class="fa fa-sun-o" aria-hidden="true"></i>
+							<div class = "CricleSmall">
+							<p style = "padding-top:15px;">4</p>
+							</div>
+							</div>
+							<p class ="CricleTitle">DESIGN</p>
+							<p class = "CricleText">Familiar with various kinds of photography consisting of fashion, wild animals and undersea due to HTML Personal Website Template <a href = "#">Learn more</a></p>
+						</div>
+						<div class = "emptydiv"></div>
+					</div>
+				</div>
+			</div>
+					
+					<div class = "container-fluid ContainerFluidClass">
+						<div class = "row align-items-center content-row RowCenter">
+							<div class = "col-lg-6 wrap-block LeftCol">
+								<p class = "AboutMe">ABOUT ME</p>
+								<p class = "Description2">I AM A PHOTOGRAPHER & DESIGNER</p>
+								<p class = "AboutText">Dedicated and energised professional photographer with 7+ years' comprehensive experience in customized and also specialized photography. Experienced in catching premium quality images and arranging products for photoshoots while displaying self-confidence and professionalism and trust in any way times. Proficient with different kinds of photography including style, wildlife and undersea due to HTML Personal Website Template. Extensive knowledge of working with innovative digital photography tools.</p>
+								<div class = "DisplayText"><p class = "CheckMark">✓</p><p class = "CheckText">Specialized in high-speed digital photography for motorsports from regional to nationwide degree series</p></div>
+								<div class = "DisplayText"><p class = "CheckMark">✓</p><p class = "CheckText">Provided a full variety of imaging requires from commercial, also graphic arts</p></div>
+								<div class = "DisplayText"><p class = "CheckMark">✓</p><p class = "CheckText">Designed as well as provided proposals to broad spectrum customers</p></div>
+								<div class = "DisplayText"><p class = "CheckMark">✓</p><p class = "CheckText">Oversaw all aspects of workshop work as HTML Personal Page Template developer</p></div>
+								<div class = "social-media col-md-12 col-sm-12 SocMed">
+									<ul class = "IconList">
+										<a href = "#" class = "Icon1" style = "margin-left:0px;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+										<a href = "#" class = "Icon1"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+										<a href = "#" class = "Icon1"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+										<a href = "#" class = "Icon1"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+										<a href = "#" class = "Icon1"><i class="fa fa-rss" aria-hidden="true"></i></a>
+									</ul>
+								</div>
+							</div>
+							<div class = "col-lg-6 photo-split RightCol">
+								<img src = "{{asset('students_works/vazgen/2/image/1.jpg')}}" class = "Image">
+							</div>
+							</div>
+					</div>
+					<div class = "container-fluid text-center">
+						<div class = "row justify-content-center RowEnd">
+							<div class = "col-md-6 col-sm-12 ColEnd">
+								<p class = "EndLink">Personal Website HTML Template. Powered by&nbsp;<a class = "Link" href = "#">Mobirise.com</a></p>
+							</div>
+							<div class = "social-media col-md-6 col-sm-12">
+								<ul class = "IconList2">
+										<a href = "#" class = "Icon2"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+										<a href = "#" class = "Icon2"><i class="fa fa-facebook" aria-hidden="true" style = "margin-left:-2px;"></i></a>
+										<a href = "#" class = "Icon2"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+										<a href = "#" class = "Icon2"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								</ul>
+							</div>
+						</div>
+					</div>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+.allPadding{
+	padding: 0 !important;
+}
+
+
+.headerNav li:hover > a{
+	background-color: #42B3E5;
+	color: white !important;
+}
+
+.mainSectionFone{
+	background-image: url(images/fone.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.emergency{
+	background-color: #42B3E5;
+}
+
+.buttonEmergency1{
+	background-color: #42B3E5;
+	border:1px solid white;
+}
+
+
+.doctor{
+	background-color: #0384CE;
+}
+
+.buttonEmergency2{
+	background-color: #0384CE;
+	border:1px solid white;
+}
+
+.opening{
+	background-color: #3156A3;
+}
+
+.latest{
+	border-bottom: 2px solid #42B3E5;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.trBackgroung{
+	background-color: #3156A3;
+}
+
+.details{
+	background-color: #3156A3;
+	border:none;
+}
+
+.footerKarkas{
+	background-color: #202020;
+}
+.togher{
+	line-height: 1px;
+}
+
+.togher span{
+	word-spacing: 70px;
+}
+
+.ulStrelka{
+	list-style-image: url(images/ctrelkapoqr.png);
+}

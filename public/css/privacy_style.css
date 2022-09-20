@@ -1,0 +1,34 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #2d3748 !important;
+  background-color: #f5f9ff !important;
+}
+
+.container p{
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 0.32px;
+}
+p span{
+  font-size: 32px;
+  font-weight: 600 !important;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+
+}
+.container h2{
+  font-size: 21px;
+  font-weight: 700 !important;
+  padding: 10px 0;
+}
+@media (max-width: 500px){
+p span{
+    text-align: center;
+    width: 100%;
+    font-size: 20px !important;
+}
+.container p{
+  text-align: center;
+}
+}

@@ -1,0 +1,106 @@
+header {
+	background-image: url(images/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.headerimg {
+	height: 550px;
+	position: relative;
+}
+
+.white {
+	color: white !important;
+}
+
+.white:hover {
+	border-bottom: 2px orange solid;
+}
+
+.a {
+	padding: 0 !important;
+	border: 0 !important;
+	border-radius: 0 !important;
+	border-top-left-radius: 30px !important;
+	border-bottom-left-radius: 30px !important;
+	padding-left: 20px !important;
+}
+
+.b {
+	padding: 0 !important;
+	border-radius: 0 !important;
+	padding-left: 20px !important;
+}
+
+.c {
+	color: white !important;
+	border: 0 !important;
+	border-radius: 0 !important;
+	border-top-right-radius: 30px !important;
+	border-bottom-right-radius: 30px !important;
+	padding-left: 60px !important;
+	padding-right: 60px !important;
+}
+
+.leftarrow {
+	position: absolute;
+	left: 0;
+	background: white;
+	border-radius: 100%;
+	padding: 3px 10px;
+}
+
+.rightarrow {
+	position: absolute;
+	right: 0;
+	background: white;
+	border-radius: 100%;
+	padding: 3px 10px;
+}
+
+.d {
+	color: white !important;
+	border-radius: 30px !important;
+	padding-left: 50px !important;
+	padding-right: 50px !important;
+}
+
+.travel {
+	background-image: url(images/bg2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.s {
+	font-size: 15px !important;
+}
+
+.matching {
+	width: 360px;
+	background: white;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.testimonlials {
+	position: relative;
+}
+
+.leftarrow2 {
+	position: absolute;
+	left: 0;
+}
+
+.rightarrow2 {
+	position: absolute;
+	right: 0;
+}
+
+.subscribe {
+	color: white !important;
+	border-radius: 30px !important;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}

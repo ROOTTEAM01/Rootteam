@@ -1,0 +1,139 @@
+/* ------------------------ header v ------------------------ */
+.backroundimg1 {
+    background-image: url(../img/background1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+}
+
+.backroundimg1::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.contenton {
+    position: relative;
+    z-index: 2;
+}
+
+
+.navul li {
+    border: 2px solid white;
+    margin-left: 10px;
+}
+
+.navul li a {
+    color: white;
+}
+
+.navul li a:hover {
+    text-decoration: none;
+    color: chocolate;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel1 {
+    width: 500px;
+    height: 500px;
+}
+/* ------------------------ header ^ ------------------------ */
+
+/* ------------------------ section4 v ------------------------ */
+#sectionul1 {
+    list-style-image: url(../icon/ul\ li.png);
+}
+/* ------------------------ section4 ^ ------------------------ */
+
+/* ------------------------ section5 v ------------------------ */
+.backroundimg2 {
+    background-image: url(../img/background2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+}
+
+.backroundimg2::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+/* ------------------------ section5 ^ ------------------------ */
+
+/* ------------------------ section6 v ------------------------ */
+.engineer {
+    height: 100px;
+    width: 100px;
+}
+
+.circlecont {
+    width: 100px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+}
+
+.circle:hover {
+    border: 1px solid chocolate;
+    cursor: pointer;
+}
+
+.slideeng a {
+    color: chocolate;
+    text-decoration: none;
+    float: right;
+}
+/* ------------------------ section6 ^ ------------------------ */
+
+/* ------------------------ section7 v ------------------------ */
+.backroundimg3 {
+    background-image: url(../img/background3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+}
+
+.backroundimg3::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.infoinput {
+    background: rgba(0, 0, 0, 0.1);   
+}
+/* ------------------------ section7 ^ ------------------------ */
+
+/* ------------------------ footer v ------------------------ */
+.backroundfooter {
+    background-color: black;
+}
+
+.footersocial a:hover {
+    text-decoration: none;
+}
+/* ------------------------ footer ^ ------------------------ */

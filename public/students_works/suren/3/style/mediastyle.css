@@ -1,0 +1,103 @@
+@media screen and (max-width: 1200px) {
+
+    #_cart {
+        display: none;
+    }
+    #cart {
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        position: relative;
+        top: 45px;
+        left: -1px;        
+        text-align: center;
+    }
+
+    .header-1 h1, h3 {
+        display: none;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .product {
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .nav-container {
+        position: fixed;
+        height: auto;
+        background-color: black;
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .nav-bar ul li {
+        display: none;
+    }
+
+    #cart {
+        display: none;
+    }
+
+    #_cart {
+        display: none;
+    }
+
+    .header-0 {
+        background-image: url("unset");
+        height: auto;
+    }
+
+    .header-1 {
+        display: none;
+        padding-top: 50px;
+        justify-content: center;
+    }
+
+    .header-1 h1, h3 {
+        display: none;
+    }
+
+    #hidshow {
+        display: block;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .product {
+        height: auto;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #apple {
+        display: none;
+    }
+
+    .headerlink {
+        display: none;
+    }
+
+    .nav-ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
