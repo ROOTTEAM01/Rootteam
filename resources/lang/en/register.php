@@ -21,6 +21,8 @@ return [
     'yerevan'=>"Yerevan,Armenia",
     'address'=>"49 Tigran Mets Ave.,3rd floor",
     'addr'=>"Address",
+    'email'=>"Email",
+    'phone'=>"Phone",
     'confirm'=>"Confirm",
     'namerequired'=>"The field name surname is required",
     'agerequired'=>"The field age is required",
