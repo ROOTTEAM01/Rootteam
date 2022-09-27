@@ -48,7 +48,7 @@
               </td>
             </tr> 
               <tr  align='center'>
-              <td align='left'><p  style='color:#272727;font:bold 20px sans-serif'>{{$name}}</p></td>
+              <td align='left'><p  style='color:#272727;font:bold 20px sans-serif'>{{$full_name}}</p></td>
               
             </tr>
 
@@ -114,7 +114,7 @@
                           <td width='70%'>
                             <p style='font: 20px sans-serif'>{{__('register.members_count')}}</p>
                           </td>
-                          <td align='left'><h1 style='font:bold 25px sans-serif'>{{$students_count}}</h1></td>
+                          <td align='left'><h1 style='font:bold 25px sans-serif'>{{$confirm_type}}</h1></td>
                         </tr>
                       </table>
                     </td>
