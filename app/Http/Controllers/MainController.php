@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\StudentRequest;
+use App\Http\Requests\SubscribeRequest;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use App\Models\Subscribe;
@@ -40,41 +41,14 @@ class MainController extends Controller
         }
     }
 
-    public function subscribe(Request $r)
+    public function subscribe(SubscribeRequest $subscribeRequest)
     {
-        $lang = Session::get('locale');
+        $success =  Session::get('locale') === 'arm'
+            ? 'Շնորհակալություն բաժանորդագրվելու համար'
+            : 'Thank you for subscribing';
+        Subscribe::query()->create($subscribeRequest->validated());
 
-        if ($lang == 'arm') {
-            $invalid_email = "Գոյություն չունեցող էլ․հասցե";
-            $require       = "Լրացրեք դաշտը";
-            $success       = 'Շնորհակալություն բաժանորդագրվելու համար';
-            $already       = "Դուք արդեն բաժանանորդագրվել եք։";
-        } else {
-            $invalid_email = "Invalid email address";
-            $require       = "Please enter a value";
-            $success       = 'Thank you for subscribing';
-            $already       = 'You already subscribed';
-        }
-        $messages  = [
-            'required' => $require,
-            'email'    => $invalid_email,
-            'unique'   => $already
-        ];
-        $email     = $r->email;
-        $validator = Validator::make($r->all(), [
-            'email' => 'required|email|unique:subscribe,email'
-        ], $messages);
-
-
-        if ($validator->fails()) {
-            $errors = $validator->errors();
-            return ['message' => $errors, 'success' => false];
-        } else {
-            $model        = new Subscribe;
-            $model->email = $email;
-            $model->save();
-            return ['message' => $success, 'success' => true];
-        }
+        return ['message' => $success, 'success' => true];
 
     }
 
@@ -99,14 +73,13 @@ class MainController extends Controller
         $time    = trim($time, ',');
         $time    .= ' ժամեր';
         $subject = "Գրանցում";
-        $success = 'Դուք հաջողությամբ գրանցվել եք։  ՈՒղարկվել է հաղորդագրություն Ձեր էլ․ հասցեին ';
+
         if (Session::get('locale') === 'en') {
             $time    = str_ireplace(
                 ['Առավոտյան', 'Ցերեկային', 'Երեկոյան', 'ժամեր'],
                 ['Morning', 'Daytime', 'Evening', 'hours'],
                 $time);
             $subject = "Sign In";
-            $success = 'You signed successfully,we sent message to your email';
         }
 
         $mon       = 3;
@@ -150,6 +123,10 @@ class MainController extends Controller
                 return ['msg' => $email_failurs, 'success' => false];
             }
         }
+
+        $success =  Session::get('locale') === 'arm'
+            ? 'Դուք հաջողությամբ գրանցվել եք։  ՈՒղարկվել է հաղորդագրություն Ձեր էլ․ հասցեին '
+            : 'You signed successfully,we sent message to your email';
 
         return ['msg' => $success, 'success' => true];
 
