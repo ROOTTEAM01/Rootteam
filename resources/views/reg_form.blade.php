@@ -190,10 +190,10 @@
           type:'POST',
           dataType:'json',
           data:{
-               name:name,
                age:age,
-               email:email,
-               phone:phone,
+              email:email,
+              full_name:name,
+              phone:phone,
                course_type:course_type,
                confirm_type:confirm_type,
                morningtime:morningtime,
