@@ -99,7 +99,8 @@ class MainController extends Controller
         $time    = trim($time, ',');
         $time    .= ' ժամեր';
         $subject = "Գրանցում";
-        $success = 'Դուք հաջողությամբ գրանցվել եք։  ՈՒղարկվել է հաղորդագրություն Ձեր էլ․ հասցեին ';
+        $success = 'Դուք հաջողությամբ գրանցվել եք։  <br>
+                    ՈՒղարկվել է հաղորդագրություն Ձեր էլ․ հասցեին ';
         if (Session::get('locale') === 'en') {
             $time    = str_ireplace(
                 ['Առավոտյան', 'Ցերեկային', 'Երեկոյան', 'ժամեր'],
@@ -111,19 +112,28 @@ class MainController extends Controller
 
         $mon       = 3;
         $month_fee = '30 000';
-        if ($course_type === 'Full Stack Web Development') {
+        if ($course_type === 'Full Stack Node Development') {
+            $course = 'Html, Css Responsive design, Bootstrap JavaScript, jQuery, Ajax Node.js MongoDB';
+            $mon    = 5;
+
+        } elseif ($course_type === 'Full Stack PHP Development') {
             $course = 'Html, Css Responsive design, Bootstrap JavaScript,
-             jQuery, Ajax PHP, MySQL, OOP MVC, Laravel(additional)';
+                       jQuery, Ajax, PHP, MySQL, OOP MVC, Laravel(additional)';
+
+        } elseif ($course_type === 'Full Stack Python Development') {
+            $course    = 'Html, Css Responsive design, Bootstrap, JavaScript, jQuery, Ajax,
+                          Python, MongoDB, Diango';
             $mon    = 6;
 
-        } elseif ($course_type === 'Front-End React Web Development') {
-            $course = 'Html, CSS,Responsive design, Bootstrap,JavaScript, OOP, jQuery,React.js';
-
-        } else {
-            $course    = 'Php, OOP,Ajax, MySQL,MVC,Laravel(additional)';
+        } elseif ($course_type === 'Front-End React Development') {
+            $course    = 'Html, Css Responsive design, Bootstrap, JavaScript, OOP, jQuery,
+                          React.js, Redux';
+            $mon    = 5;
+        }
+        elseif ($course_type === 'Back-End Php Development') {
+            $course    = 'Php, OOP, Ajax, MySQL, MVC, Laravel(additional)';
             $month_fee = '40 000';
         }
-
         $data = $studentRequest->validated() +
             [
                 'course'      => $course,
