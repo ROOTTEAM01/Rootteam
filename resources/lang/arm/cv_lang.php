@@ -49,7 +49,7 @@ return[
    'english'=>"օր. Անգլերեն",
    'anotherlanguage'=>"Ավելացնել լեզու",
    'experiences'=>"Աշխատանքային փորձը",
-   'jobtitle'=>"Պաշտոնը",
+   'job_title'=>"Պաշտոնը",
    'company'=>"Կազմակերպություն",
    'anotherworkexperience'=>"Այլ կազմակերպություն",
    'contacts'=>"Կապ",

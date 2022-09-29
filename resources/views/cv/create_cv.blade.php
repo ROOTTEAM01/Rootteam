@@ -360,7 +360,7 @@
                     @endif
             </div>        	
 			<div class="specialization-ex">
-				<label>{{__('cv_lang.jobtitle')}}<span class="redstar">*</span></label>	
+				<label>{{__('cv_lang.job_title')}}<span class="redstar">*</span></label>
 				<input type="text" id="exp_title" placeholder="{{__('cv_lang.programmer')}}">
 				<label>{{__('cv_lang.company')}}<span class="redstar">*</span></label>	
 				<input type="text" id="exp_company">

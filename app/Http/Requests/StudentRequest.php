@@ -53,7 +53,6 @@ class StudentRequest extends FormRequest
         }
 
         return [
-
             'age.numeric'  => $age,
             'age.min'      => $age_minmax,
             'age.max'      => $age_minmax,

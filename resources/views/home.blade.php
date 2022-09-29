@@ -965,7 +965,7 @@
                             </ul>
                             <br>
                             <div class="pricing-content-btn pricing-btn ">
-                                <a class="btn btn2" href="reg_form.php?course=node">{{__('home.signup')}}</a>
+                                <a class="btn btn2" href="/register?course=node-full">{{__('home.signup')}}</a>
                             </div>
                         </div>
                     </div>
@@ -1002,7 +1002,7 @@
                                 <li><i class="fa fa-check"></i> MVC, Laravel (additional)</li>
                             </ul>
                             <div class="pricing-content-btn pricing-btn ">
-                                <a class="btn btn1" href="reg_form.php?course=python">{{__('home.signup')}}</a>
+                                <a class="btn btn1" href="/register?course=php-full">{{__('home.signup')}}</a>
                             </div>
                         </div>
                     </div>
@@ -1041,7 +1041,7 @@
                                 <li><i class="fa fa-check"></i> Diango</li>
                             </ul>
                             <div class="pricing-content-btn pricing-btn ">
-                                <a class="btn btn2" href="reg_form.php?course=front">{{__('home.signup')}}</a>
+                                <a class="btn btn2" href="/register?course=python-full">{{__('home.signup')}}</a>
                             </div>
                         </div>
                     </div>
@@ -1079,7 +1079,7 @@
                                 <li><i class="fa fa-check"></i> Redux</li>
                             </ul>
                             <div class="pricing-content-btn pricing-btn ">
-                                <a class="btn btn2" href="reg_form.php?course=front">{{__('home.signup')}}</a>
+                                <a class="btn btn2" href="/register?course=react-front">{{__('home.signup')}}</a>
                             </div>
                         </div>
                     </div>
@@ -1114,7 +1114,7 @@
                             </ul>
                             <br>
                             <div class="pricing-content-btn pricing-btn">
-                                <a class="btn btn3" href="reg_form.php?course=back">{{__('home.signup')}}</a>
+                                <a class="btn btn3" href="/register?course=php-back">{{__('home.signup')}}</a>
                             </div>
                         </div>
                     </div>
