@@ -260,7 +260,6 @@ class CVController extends Controller
 
     public function add_experiance(ExperianceRequest $createRequest)
     {
-        dd($createRequest->validated());
         $newExperience = Experience::create($createRequest->validated() +
             ['cv_students_id' => Session::get('id')]);
 
@@ -445,6 +444,7 @@ class CVController extends Controller
             return '<h1>404<h1>';
         }
         $session_id = Session::get('id');
+
         if (!$session_id || $session_id != $id) {
             if (!$user->published) {
                 return '<h1>CV is not published<h1>';
