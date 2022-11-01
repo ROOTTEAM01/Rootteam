@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <title>Colibrilab</title>
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{asset('css/typing-test/timer.css')}}">
     <link rel="stylesheet" href="{{asset('css/typing-test/popup.css')}}">
     <link rel="stylesheet" href="{{asset('css/typing-test/pointer.css')}}">
+
 </head>
 
     <body>
@@ -19,9 +20,10 @@
         <div class="container">
         <div class="section_top">
             <div class="left_img">
-                <img src="{{asset('images/typing-test/leftbg@3x.png')}}" >
+                <img src="{{asset('images/typing-test/Ellipse32.png')}}" >
+
             </div>
-            <div class="left_margin"></div> 
+            <div class="left_margin"></div>
             <div class="content">
                 <div id="pointer">
                     <p>{{__('typing.start')}}</p>
@@ -47,22 +49,26 @@
                         <div class="text_content">
                             <div class="text_box">
                                 <div class="line_box">
-                                    
+
                                 </div>
                             </div>
                             <textarea class="input_text"></textarea>
                         </div>
                     </div>
-                    <div class="right_margin"></div> 
+                    <div class="right_margin"></div>
                      <div class="right_img">
-                        <img src="{{asset('images/typing-test/rightbg@3x.png')}}" >
+                        <img src="{{asset('images/typing-test/Ellipse31.png')}}" >
+                         <img src="{{asset('images/typing-test/Ellipse32.png')}}" >
+
                      </div>
                 </div>
 
         <div class="section_bottom">
             <div class="bottom_img">
                 <img src="{{asset('images/typing-test/blue@3x.png')}}">
+
             </div>
+
         </div>
     </div>
 
@@ -80,11 +86,11 @@
                         <div class="popup_info">
                             <h1 class="qualify">{{__('typing.tray')}}</h1>
                             <div class="stat_wpn"><p class="statistic">0 {{__('typing.per_min')}}</p><p id="statistic_wpm">(0 WPM):</p></div>
-                            <p class="accuracy">{{__('typing.accuracy')}}<span id="accuracy_procent">0 %:</span></p> 
-                            <p class="advice">{{__('typing.try_faster')}}</p> 
+                            <p class="accuracy">{{__('typing.accuracy')}}<span id="accuracy_procent">0 %:</span></p>
+                            <p class="advice">{{__('typing.try_faster')}}</p>
                         </div>
                     </div>
-                </div>     
+                </div>
                 <div class="share">
                     <span>{{__('typing.share')}}</span>
                     <a href="#" class="facebook_share">
@@ -102,7 +108,7 @@
             </div>
         </div>
     </div>
-    
+
             </div>
         </div>
     </div>
@@ -114,8 +120,8 @@
       var wordspermin_php="{{__('typing.wordspermin')}}";
       var seconds_php="{{__('typing.seconds')}}";
       var lang_php="{{__('typing.lang')}}";
- </script>  
+ </script>
     <script src="{{asset('js/typing_script.js')}}"></script>
-        
+
     </body>
 </html>

@@ -49,7 +49,7 @@ return[
    'english'=>"e.g. English",
    'anotherlanguage'=>"Add another language",
    'experiences'=>"Experiences",
-   'job_title'=>"Job Title",
+   'jobtitle'=>"Job Title",
    'company'=>"Company",
    'anotherworkexperience'=>"Add another work experience",
    'contacts'=>"Contacts",

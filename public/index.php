@@ -1,5 +1,5 @@
 <?php
-// die("SDFDSFDS");
+
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 

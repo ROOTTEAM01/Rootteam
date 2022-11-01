@@ -3,7 +3,7 @@
 @media only screen and (max-width : 1866px) {
 	.pulseDiv4 {
 		top: -5px;
-		
+
 	}
 
 }
@@ -93,10 +93,10 @@
 		.other5>.other6{
 		display: none !important;
 	}
-	.other5>.ana{
-    display: block !important;
+	/*.other5>.ana{*/
+    /*display: block !important;*/
 }
-}
+
 
 @media only screen and (max-width : 767px) {
 	svg.svg-inline--fa.fa-react.fa-w-16,
@@ -371,7 +371,7 @@
 
 @media (max-width: 992px) {
 		.fixed-top {
-		    background: white;
+		    background: #000000;
 		}
 }
 

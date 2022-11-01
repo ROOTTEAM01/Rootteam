@@ -96,7 +96,7 @@ $('.cv_send').click(function(){
     type:'post',
     dataType:'JSON',
     data:{
-        pass:pass,pass_conf:pass_conf,email:email,agree:agree
+        password:pass,pass_conf:pass_conf,email:email,agree:agree
     },
     success:function(d){
         if(d.success==true){
