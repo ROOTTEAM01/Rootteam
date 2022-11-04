@@ -1,13 +1,17 @@
 body{
     margin: 0 auto;
+    font-family: 'Noto Sans Armenian';
   }
   .col{
     position: absolute;
   }
   .footer1{
-    background-color: #2d3748;
+    background-image: url("../images/Group 27.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     width: 100% !important;
-    height: 250px;
+    height: 440px;
   }
   .footer1 a{
     color: white;
@@ -20,15 +24,17 @@ body{
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 52px;
-    /*line-height: 2;*/
-    font-family: 'Roboto', sans-serif;
+    padding-top: 17px;
+    height: 181px;
+    background: rgba(255, 255, 255, 0.31);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    margin-top: 246px;
   }
   .ajak{
     display: inline-block;
     position: relative;
     cursor: pointer;
-    background-color: #2d3748;
     font-size: 20px;
 
   }
@@ -46,27 +52,38 @@ body{
 
   }
   .footer1-content a:hover{
-    color: #DCDCDC;
+    /*color: #DCDCDC;*/
   }
   .cont>a{
-    color:black;
-    font-size: 13px;
-    text-align: center;
-    margin: 10px;
+      text-align: center;
+      margin: 10px;
+      font-family: 'Noto Sans Armenian';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 30px;
+      color: #24A1AD;
   }
-  .cont>a:hover{
-    color: #29293d;
-  }
+  /*.cont>a:hover{*/
+  /*  color: #29293d;*/
+  /*}*/
   .cont>p{
-    margin-left: 10px;
-    margin-top:7px;
-    position: relative;
-    top:15px;
-    color: black;
+      margin-left: 10px;
+      margin-top: 7px;
+      position: relative;
+      top: 0px;
+      font-family: 'Noto Sans Armenian';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 30px;
+      color: #000000;;
   }
   .main{
-    display: flex;
-    /*text-align: center;*/
+      display: flex;
+      border-bottom: 1px solid #B2B2B2;
+      justify-content: flex-start;
+      align-items: center;
   }
   .box::-webkit-scrollbar-track {
       border: 1px solid #000;
@@ -88,8 +105,8 @@ body{
     margin-left: 15px;
   }
   .border{
-    border:1px solid white; 
-    border-radius: 5px; 
+    border:1px solid white;
+    border-radius: 5px;
     margin:0 20px;
   }
   .ajakicner{
@@ -100,7 +117,7 @@ body{
        width: 100%;
 
     }
-  }  
+  }
   @media only screen and (max-width: 700px) {
   /*  .footer1{
       width: 100%
@@ -113,7 +130,7 @@ body{
       text-align: center;
       width: 100% !important;
       margin: 0 auto;
-      
+
   }
   .border{
     border:none !important;
@@ -182,7 +199,7 @@ body{
   }
   .box{
     width:300px;
-    position: relative; 
+    position: relative;
     height: 150px;
     margin: 0 -85px;
   }

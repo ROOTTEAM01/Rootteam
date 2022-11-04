@@ -1,34 +1,59 @@
-body{
-  font-family: 'Open Sans', sans-serif;
-  color: #2d3748 !important;
-  background-color: #f5f9ff !important;
+body {
+	font-family: 'Open Sans', sans-serif;
+	/*color: #2d3748 !important;*/
+	/*background-color: #f5f9ff !important;*/
+}
+@font-face {
+    font-family: 'Noto Sans Armenian';
+    src: url("../fonts/NotoSansArmenian.ttf");
 }
 
-.container p{
-   font-size: 18px;
-   font-weight: 500;
-   letter-spacing: 0.32px;
-}
-p span{
-  font-size: 32px;
-  font-weight: 600 !important;
-  display: flex;
-  justify-content: center;
-  margin: 50px 0;
+/* .container p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 31px;
+	text-align: center;
+	color: #000000;
+} */
+
+
+p span {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+    font-family: 'Noto Sans Armenian';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 46px;
+    color: #000000;
 
 }
-.container h2{
-  font-size: 21px;
-  font-weight: 700 !important;
-  padding: 10px 0;
+#priv p{
+    margin-bottom: 15px;
+    color: #000000;
 }
-@media (max-width: 500px){
-p span{
-    text-align: center;
-    width: 100%;
-    font-size: 20px !important;
+.bold{
+    font-family: 'Noto Sans Armenian';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 41px;
+    color: #000000;
 }
-.container p{
-  text-align: center;
-}
+
+@media (max-width: 500px) {
+	p span {
+		text-align: center;
+		width: 100%;
+		font-size: 20px !important;
+	}
+
+	.container p {
+		text-align: center;
+	}
+    .content-teacher{
+        width: 100%;
+    }
 }

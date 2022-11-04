@@ -55,7 +55,7 @@ $(document).on('click', "#save-skill",function() {
             <label class="slider_value">${skillRange}%</label>
           </div>
           <div class="skill-input">
-            <input type="range" class="pracent" disabled>
+            <input type="range" class="pracent gdas-range" disabled>
           </div>
         </div>
         <div class="skill-right">

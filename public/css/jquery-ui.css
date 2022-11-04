@@ -844,7 +844,7 @@ button.ui-button::-moz-focus-inner {
 	position: relative;
 	top: 0;
 	margin: 1px 0 0 0;
-	/*border-bottom-width: 2px;*/
+	border-bottom-width: 2px;
 	padding: 0;
 	white-space: nowrap;
 }
@@ -878,7 +878,7 @@ button.ui-button::-moz-focus-inner {
 	max-width: 300px;
 }
 li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab {
-	padding: 0 11.25px 0 11.25px !important;
+	padding: 0 4.25px 0 11.25px !important;
 }
 
 /*body .ui-tooltip {*/
@@ -933,7 +933,7 @@ li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab {
 works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
-	border-bottom: 3px solid #c5c5c5;
+	border-bottom: 2px solid #4E417F;
 	/*background: #f6f6f6;*/
 	font-weight: normal;
 	color: #454545;
@@ -945,7 +945,7 @@ a.ui-button,
 a:link.ui-button,
 a:visited.ui-button,
 .ui-button {
-	color: #454545;
+	color: #000000;
 	text-decoration: none;
 }
 .ui-state-hover,
@@ -984,8 +984,8 @@ a.ui-button:focus {
 a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
-	border-bottom: 3px solid #4583fa;
-	background: #fff;
+	border-bottom: 3px solid #8B4B90;
+	background: transparent;
 	font-weight: normal;
 	color: #ffffff;
 }
@@ -997,7 +997,7 @@ a.ui-button:active,
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
-	color: #4482f9;
+	color: #8B4B90;
 	text-decoration: none;
 }
 

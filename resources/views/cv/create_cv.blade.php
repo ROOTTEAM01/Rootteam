@@ -24,7 +24,7 @@
 	<header class="header">
 		<div class="header-heigth">
 			<div>
-				<img src="{{asset('cv/images/user.png')}}">
+				<img src="{{asset('cv/images/cv_icon.png')}}">
 				<p class="info">{{__('cv_lang.personalinfo')}}</p>
 			</div>	
 			<nav class="nav">
@@ -130,7 +130,7 @@
 						<label class="slider_value">{{$skill->percent}}%</label>
 					</div>
 					<div class="skill-input">
-						<input type="range" class="pracent" disabled>
+						<input type="range" class="pracent gdas-range" disabled>
 					</div>
 				</div>
 				<div class="skill-right">
@@ -163,7 +163,7 @@
 						
 							
 						</div>
-							<input type="range" class="pracent" id="skill_percent" >
+							<input type="range" class="pracent gdas-range" id="skill_percent" >
 						<div class="button">
 							<button class="delete form-control shadow-none" id="cancel_skill">{{__('cv_lang.cancel')}}</button>
 							<button class="save form-control shadow-none" id="save-skill">{{__('cv_lang.save')}}</button>
@@ -173,7 +173,7 @@
 			<div class="add-sk">
 				<div>	
 					<button class="skill-button form-control shadow-none">
-						<img src="{{asset('cv/images/add.png')}}">
+{{--						<img src="{{asset('cv/images/add.png')}}">--}}
 						<p>{{__('cv_lang.anotherskill')}}</p>
 					</button>
 				</div>
@@ -258,7 +258,7 @@
 	<div class="add-edu">
 		<div>	
 			<button class="skill-button  form-control shadow-none">
-				<img src="{{asset('cv/images/add.png')}}">
+{{--				<img src="{{asset('cv/images/add.png')}}">--}}
 				<p>{{__('cv_lang.new_education')}}</p>
 			</button>
 		</div>
@@ -323,7 +323,7 @@
 			<div class="add-leng">
 				<div>	
 					<button class="lang-button">
-						<img src="{{asset('cv/images/add.png')}}">
+{{--						<img src="{{asset('cv/images/add.png')}}">--}}
 						<p>{{__('cv_lang.anotherlanguage')}}</p>
 					</button>
 				</div>
@@ -360,7 +360,7 @@
                     @endif
             </div>        	
 			<div class="specialization-ex">
-				<label>{{__('cv_lang.job_title')}}<span class="redstar">*</span></label>
+				<label>{{__('cv_lang.jobtitle')}}<span class="redstar">*</span></label>	
 				<input type="text" id="exp_title" placeholder="{{__('cv_lang.programmer')}}">
 				<label>{{__('cv_lang.company')}}<span class="redstar">*</span></label>	
 				<input type="text" id="exp_company">
@@ -399,7 +399,7 @@
 		<div class="add-ex">
 				<div>	
 					<button class="skill-button form-control shadow-none">
-						<img src="{{asset('cv/images/add.png')}}">
+{{--						<img src="{{asset('cv/images/add.png')}}">--}}
 						<p>{{__('cv_lang.anotherworkexperience')}}</p>
 					</button>
 				</div>
@@ -459,9 +459,7 @@
 			<div class="con-block red" id="twitter_error"></div>
 			<div class="con-block">
 
-				<img src="{{asset('images/Dribble.svg')}}">
-
-				
+				<img src="{{asset('images/Group31.png')}}">
 
 				<label>Dribble link</label>
 				<input type="text" id="dribble_url" value="{{$data->connections->dribble??null}}">
@@ -479,7 +477,7 @@
 			<div class="con-block red" id="github_error"></div>
 			<div class="con-block">
 
-				<img src="{{asset('images/behance-logo.svg')}}">
+				<img src="{{asset('images/behance-logo.png')}}">
 				<label>Behance link</label>
 				<input type="text" id="behance_url" value="{{$data->connections->behance??null}}">
 			</div>
@@ -496,6 +494,52 @@
 		</div>
 		<div><button class="send form-control shadow-none">{{__('cv_lang.save')}}</button></div>
 	</div>
+	<div style="display: flex;justify-content: center;padding: 20px 0; height: 0">
+		<section class="footer1">
+			<div class="footer1-content">
+
+				<div class="dropdown ajak hide">
+					<div class="  ajakicner" data-toggle="dropdown">
+						<p class="aj">{{__('home.supporters')}}</p>
+						<p style="padding-left:10px"><i class="fas fa-angle-down"></i></p>
+					</div>
+					<div class="dropdown-menu box" style="margin: 0 12px" x-placement="none !important">
+						<div class="main">
+							<div class="img">
+								<img src="https://avatars.githubusercontent.com/u/9532499?s=460&u=5cd8a861d4b8289bfcb45961eae953b114f562ec&v=4" style="width: 40px; height: 40px; border-radius: 50%; ">
+							</div>
+							<div class="cont">
+								<p>{{__('home.andranik')}}</p>
+								<a href="https://github.com/HoghmrtsyanAndranik" class="a" target="_blank">https://github.com/HoghmrtsyanAndranik</a>
+							</div>
+						</div>
+						<div class="main">
+							<div class="img">
+								<img src="https://avatars.githubusercontent.com/u/86793772?s=40&u=bb33238cea0bb5533f400efdc5ff378936cc6171&v=4" style="width: 40px; height: 40px;  border-radius: 50%; ">
+							</div>
+							<div class="cont">
+								<p>{{__('home.ararat')}}</p>
+								<a href="https://github.com/AraratHambardzumyan">https://github.com/AraratHambardzumyan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<a href="#" class="border"></a>
+
+				<a href="{{url('/FAQ')}}" class="hth" style=" font-size: 20px" target="_blank">{{__('home.frequently_questions')}}</a>
+				<a href="#" class="border"></a>
+				<a href="{{url('/discount_policy')}}" class="zex" style="font-size: 20px " target="_blank">{{__('home.discount_policy')}}</a><br>
+				<a href="{{url('/Privacy')}}" class="anv" style=" font-size: 20px " target="_blank">{{__('home.security_policy')}}</a>
+				<p style="color: white; text-align: center; padding-top: 30px;font-size:20px" class="col">2021 RootTeam development company</p>
+
+			</div>
+
+		</section>
+
+	</div>
+	<!-- End footer -->
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.6/cropper.js" integrity="sha256-CgvH7sz3tHhkiVKh05kSUgG97YtzYNnWt6OXcmYzqHY=" crossorigin="anonymous"></script>

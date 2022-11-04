@@ -3,7 +3,7 @@
 @media only screen and (max-width : 1866px) {
 	.pulseDiv4 {
 		top: -5px;
-		
+
 	}
 
 }
@@ -93,10 +93,10 @@
 		.other5>.other6{
 		display: none !important;
 	}
-	.other5>.ana{
-    display: block !important;
+	/*.other5>.ana{*/
+    /*display: block !important;*/
 }
-}
+
 
 @media only screen and (max-width : 767px) {
 	svg.svg-inline--fa.fa-react.fa-w-16,
@@ -371,7 +371,7 @@
 
 @media (max-width: 992px) {
 		.fixed-top {
-		    background: white;
+		    background: #000000;
 		}
 }
 
@@ -412,6 +412,15 @@
 @media only screen and (max-width : 991px) {
 	#font-size {
 		font-size: 30px;
+	}
+	.testimonial .testimonial-single p{
+		font-size: 15px;
+		line-height: 18px;
+		margin-left: 20px;
+		text-align: center;
+	}
+	.testimonial .testimonial-single h5{
+		text-align: center;
 	}
 		.buttonik{
     padding-top: 20px !important;
@@ -514,7 +523,7 @@
 	font-size: 22px !important;
 	}
 	.testimonial .testimonial-single{
-	padding: 10px !important;
+	padding: 5px !important;
 	}
 	.single-pricing-table:hover {
 
@@ -525,11 +534,13 @@
     font-size: 15px;
 	}
 	.testimonial-single{
-		height: 450px;
+		height: 360px;
 	}
 	.buttonik{
     padding-top: 20px !important;
 }
+
+
 }
 @media only screen and (min-width: 321px) and (max-width: 340px){
 	.section-subscribe-st .form-control {
@@ -573,7 +584,7 @@ right: 0px;
 
 }
 .section-subscribe-st .btn {
-right: 0px !important;
+    right: 0px !important;
     padding: -88px !important;
     width: 90px !important;
     font-size: 12px !important;
@@ -601,8 +612,8 @@ right: 0px !important;
 }
 @media only screen and (min-width: 500px) and (max-width: 760px){
 	.section-subscribe-st .form-control {
-    width: 330px !important;
-    margin-left: -2px !important;
+    width: 50% !important;
+    margin-left: 10px !important;
     padding: 0 30px !important;
 
 }
@@ -618,7 +629,7 @@ right: 0px !important;
 }
 @media only screen and (min-width: 770px) and (max-width:990px){
 	.section-subscribe-st .form-control {
-    width: 450px !important;
+    max-width: 62% !important;
     margin-left: -2px !important;
     padding: 0 30px !important;
 
@@ -650,7 +661,9 @@ right: 0px !important;
 	.section-subscribe-st .form-control{
 	padding: 10px;
 	margin: 10px auto;
-	}.testimonial .testimonial-single{
+	width: 50%;
+	}
+	.testimonial .testimonial-single{
 	padding: 0px !important;
 	}
 	.single-pricing-table:hover {
@@ -663,10 +676,10 @@ right: 0px !important;
 	}
 	.testimonial-single p{
 		line-height: 25px;
-    font-size: 15px;
+    	font-size: 15px;
 	}
 	.testimonial-single{
-		height: 450px;
+		/*height: 450px;*/
 	}
 
 }

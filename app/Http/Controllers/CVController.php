@@ -4,8 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\CvRegisterRequest;
 use App\Http\Requests\ExperianceRequest;
+use App\Models\Prog_lang;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 use App\Models\CV_student;
@@ -14,8 +16,7 @@ use App\Models\Language;
 use App\Models\Experience;
 use App\Models\Skill;
 use App\Models\Connection;
-use Mail;
-use App;
+
 
 class CVController extends Controller
 {
@@ -93,7 +94,7 @@ class CVController extends Controller
         }
         ////////////////////////////////
 
-        $prog_languages = App\Models\Prog_lang::orderBy('name', 'asc')->get();
+        $prog_languages = Prog_lang::orderBy('name', 'asc')->get();
         return view('cv.create_cv', [
             'data'           => $data,
             'prog_languages' => $prog_languages,
