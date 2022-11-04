@@ -174,17 +174,8 @@ div#rev_slider_4_1_wrapper {
 	height: 100% !important;
 }
 
-.ptb-100 {
-	/*padding-top: 90px;*/
-	padding-bottom: 100px;
-}
-
 .pt-100 {
 	padding-top: 100px;
-}
-
-.pb-100 {
-	padding-bottom: 100px;
 }
 
 ul li {
@@ -373,7 +364,7 @@ button {
 /* Section Title */
 .section-title {
 	text-align: center;
-	padding-bottom: 35px;
+	padding: 40px 0;
 	position: relative;
 	display: block;
 }
@@ -800,8 +791,8 @@ button {
 	/* transform: scale(1.1); */
 }
 .content-teacher{
-    width: 299px;
-    height: 377px;
+    /*width: 299px;*/
+    /*height: 377px;*/
     background: rgba(255, 255, 255, 0.59);
     box-shadow: 2px 4px 9px rgb(0 0 0 / 18%);
     backdrop-filter: blur(18px);
@@ -810,6 +801,8 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+	padding: 10px;
+
 }
 .teacher-img img{
     max-width: 265px;
@@ -1363,7 +1356,11 @@ svg.svg-inline--fa.fa-python.fa-w-14 {
 	/*-moz-transition: all 0.5s;*/
 	/*-webkit-transition: all 0.5s;*/
 	/*transition: all 0.5s;*/
-    column-gap: 30px;
+    /*column-gap: 30px;*/
+
+}
+.teacher-img-text{
+	row-gap: 30px;
 }
 
 .teacher-member img {
@@ -1803,7 +1800,8 @@ i.icofont-facebook {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap:50px ;
+	position: relative;
+    /*column-gap:50px ;*/
 }
 
 .testimonial .testimonial-single img {
@@ -1813,6 +1811,7 @@ i.icofont-facebook {
 	height: 190px;
 	margin: 0 auto;
     background-image: linear-gradient(rgba(36, 85, 127, 1), rgba(62, 61, 128, 1)), linear-gradient(62deg, #24557F, #81448B);
+
 }
 .testimonial .testimonial-single::before{
     content: "";
@@ -1844,7 +1843,7 @@ i.icofont-facebook {
 	color: #000;
     font-weight: 500;
     font-size: 22px;
-    line-height: 35px;
+    line-height: 25px;
 }
 
 .testimonial .testimonial-carousel .owl-dots {
@@ -1890,6 +1889,9 @@ i.icofont-facebook {
 	margin-left: -1px;
 }
 
+.testimonial_text{
+	margin-left: 50px;
+}
 
 /* ==========================================================================
    10. Fun Facts CSS
@@ -2401,8 +2403,8 @@ i.icofont-facebook {
 /*}*/
 
 .subscribe-form-inner .form-control {
-    width: 636.02px;
-    height: 69.01px;
+    width: 66%;
+    height: 69px;
     background: rgba(255, 255, 255, 0.25);
     border: 1px solid #FFFFFF;
     backdrop-filter: blur(6px);

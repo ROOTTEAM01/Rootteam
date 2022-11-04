@@ -22,7 +22,6 @@
 
 	<div class="size">
 		<div class="row m-0 p-0">
-
 			<div class=" col-lg-6 col-xl-6 p-0 colLeft padd">
 				<div class="main " style="width: 90%;position: relative;right: 20px;margin-left: auto;">
 					<div class="container1">

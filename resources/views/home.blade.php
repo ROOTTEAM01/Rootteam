@@ -1313,7 +1313,7 @@
 			<span>{{__('home.becomeoneofus')}}</span>
 		</div>
 		<div class="row align-items-center teacher-img-text">
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-4 col-md-6 text-center">
                 <div class="content-teacher">
                     <div class="teacher-img">
                         <img src="{{asset('images/IshxanMelqonyan.png')}}" alt="">
@@ -1325,7 +1325,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-4 col-md-6 text-center">
                 <div class="content-teacher">
                     <div class="teacher-img">
                         <img src="{{asset('images/AraratHambardzumyan.jpg')}}" alt="">
@@ -1337,7 +1337,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-4 col-md-6 text-center">
                 <div class="content-teacher">
                     <div class="teacher-img">
                         <img src="{{asset('images/AraratHambardzumyan.jpg')}}" alt="">
@@ -1352,7 +1352,7 @@
 
 	</div>
         <div class="row align-items-center teacher-img-text">
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-4 col-md-6 text-center mt-4">
                 <div class="content-teacher">
                     <div class="teacher-img">
                         <img src="{{asset('images/IshxanMelqonyan.png')}}" alt="">
@@ -1364,7 +1364,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-4 col-md-6 text-center">
                 <div class="content-teacher">
                     <div class="teacher-img">
                         <img src="{{asset('images/AraratHambardzumyan.jpg')}}" alt="">
@@ -1376,7 +1376,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-4 col-md-6 text-center">
                 <div class="content-teacher">
                     <div class="teacher-img">
                         <img src="{{asset('images/AraratHambardzumyan.jpg')}}" alt="">
@@ -1466,13 +1466,13 @@
             <h2>Կարծիքներ</h2>
             <span>Կենտրոնի աշխատանքի վերաբերյալ կարծիքներ</span>
         </div>
-		<div class="row justify-content-xl-end justify-content-lg-end justify-content-md-center">
-			<div class="col-lg-10 col-md-8">
+		<div class="row justify-content-xl-center justify-content-lg-center justify-content-md-center">
+			<div class="col-lg-10 col-md-12">
 				<div class="testimonial-content reveal-right-fade">
 					<div class="testimonial-carousel owl-carousel ">
 						<div class="testimonial-single">
 							<img src="{{asset('images/Alisa.jpg')}}" alt="">
-                            <div>
+                            <div class="testimonial_text">
                                 <p>{{__('home.alisatext')}}</p>
                                 <h5>{{__('home.alisa')}}</h5>
 {{--                                <h6>Web {{__('home.developer')}}</h6>--}}
@@ -1481,7 +1481,7 @@
 						</div>
 						<div class="testimonial-single">
 							<img src="{{asset('images/narek.jpg')}}" alt="">
-                            <div>
+                            <div class="testimonial_text">
                                 <p>{{__('home.nareksardaryantext')}}
                                 </p>
                                 <h5>{{__('home.nareksardaryan')}}</h5>
@@ -1492,7 +1492,7 @@
 						</div>
 						<div class="testimonial-single">
 							<img src="{{asset('images/NE.jpg')}}" alt="">
-                            <div>
+                            <div class="testimonial_text">
                                 <p>{{__('home.narekyazeryantext')}}
                                 </p>
                                 <h5>{{__('home.narekyazeryan')}}</h5>
@@ -1503,7 +1503,7 @@
 						</div>
 						<div class="testimonial-single">
 							<img src="{{asset('images/levon.jpg')}}" alt="">
-                            <div>
+                            <div class="testimonial_text">
                                 <p>{{__('home.levonhakhyantext')}}
                                 </p>
                                 <h5>{{__('home.levonhakhyan')}}</h5>
@@ -1514,7 +1514,7 @@
 						</div>
 						<div class="testimonial-single">
 							<img src="{{asset('images/hripsime.jpg')}}" alt="">
-                            <div>
+                            <div class="testimonial_text">
                                 <p>{{__('home.hripsimemanukyantext')}} 👍👍
                                 </p>
                                 <h5>{{__('home.hripsimemanukyan')}}</h5>
@@ -1525,7 +1525,7 @@
 						</div>
 						<div class="testimonial-single">
 							<img src="{{asset('images/hovo.jpg')}}" alt="">
-                            <div>
+                            <div class="testimonial_text">
                                 <p>{{__('home.hovhanneskhachatryantext')}}
                                 </p>
                                 <h5>{{__('home.hovhanneskhachatryan')}}</h5>
