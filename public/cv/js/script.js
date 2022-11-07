@@ -540,14 +540,6 @@ $(document).on("click",".edit_educ",function() {
 
                       // resize image//
 
-
-
-
-
-
-
-
-
     }
  })
 
