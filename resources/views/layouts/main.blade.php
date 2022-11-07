@@ -236,7 +236,7 @@ python ծրագրավորում,աշխատանք ծրագրավորում,գծա
 				<a href="#" class="border"></a>
 				<a href="{{url('/discount_policy')}}" class="zex" style="font-size: 20px " target="_blank">{{__('home.discount_policy')}}</a><br>
 				<a href="{{url('/Privacy')}}" class="anv" style=" font-size: 20px " target="_blank">{{__('home.security_policy')}}</a>
-                <p style="color: white; text-align: center; padding-top: 30px;font-size:20px" class="col">2021 ColibriLab development company</p>
+                <p style="color: white; text-align: center; padding-top: 30px;font-size:20px" class="col">2021 RootTeam development company</p>
 
 			</div>
 
