@@ -888,7 +888,7 @@ button {
     font-family: 'Noto Sans Armenian';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: calc(0px + 13 * (100vw / 1200));
     line-height: 31px;
     text-align: center;
     color: #000000;
@@ -2365,6 +2365,7 @@ i.icofont-facebook {
 	margin-top: -155px;
 	margin-bottom: 30px;
     background-image: url("../images/Group10198.png");
+	background-size: cover;
     border-radius: 20px;
 }
 
