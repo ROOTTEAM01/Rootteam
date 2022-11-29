@@ -1,6 +1,15 @@
 <?php
 
 return [
+    'message' => "Message",
+    'age' => "Age",
+    'register' => "Register",
+    'courses' => 'Courses',
+	'portfolio' => 'Portfolio',
+	'ourteam' => 'Our team',
+	'opinions' => 'Opinions',
+	'contact' => 'Contact',
+	'signup' => 'Sign up',
     'registerhere'=>"Register here!",
     'fullname'=>"Name Surname",
     'age'=>"Age",
@@ -19,7 +28,7 @@ return [
     'message'=>"Message",
     'trainingcenter'=>"training center",
     'yerevan'=>"Yerevan,Armenia",
-    'address'=>"49 Tigran Mets Ave.,3rd floor",
+    'address'=>" E. Charents Ave. 4, 1rd floor",
     'addr'=>"Address",
     'email'=>"Email",
     'phone'=>"Phone",
@@ -52,4 +61,3 @@ return [
     'prefered_hours'=>"Prefered hours",  
     'comment_text'=>"Comment",      
 ];
-

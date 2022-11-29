@@ -27,8 +27,9 @@ Route::get('locale/{locale}', function ($locale){
     return redirect()->back();
 });
 
-Route::view('/','home');
-Route::view('/register','reg_form');
+Route::view('/','home')->name('home');
+// Route::view('/register','reg_form')->name('register');
+Route::get('/register', [MainController::class,'reg_form'])->name('register');
 Route::view('/FAQ','questions');
 Route::view('/discount_policy','discount_policy');
 Route::view('/Privacy','privacy_policy');
@@ -77,7 +78,3 @@ Route::post('/del_experience',[CVController::class,'del_experience']);
 Route::post('/do_form',[CVController::class,'do_form']);
 
 Route::post('/add_image',[ImageCropperController::class,'add_image']);
-
-
-
-
