@@ -1,244 +1,269 @@
-body{
-    margin: 0 auto;
-    font-family: 'Noto Sans Armenian';
+body {
+  margin: 0 auto;
+  font-family: "Noto Sans Armenian";
+}
+.col {
+  /* position: absolute; */
+}
+.footer1 {
+  background-image: url("../images/Group 27.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  width: 100% !important;
+  height: 440px;
+}
+.footer1 a {
+  color: white;
+  text-decoration: none;
+}
+.footer1 p {
+  color: white;
+}
+.footer1-content {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 17px;
+  height: 181px;
+  background: rgba(255, 255, 255, 0.31);
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(10px);
+  margin-top: 246px;
+}
+.ajak {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+}
+.box {
+  position: absolute;
+  display: none;
+  background-color: white;
+  width: 350px;
+  height: 130px;
+  overflow-y: scroll;
+  scroll-behavior: blue;
+}
+.ajak:onclick .box {
+  display: block;
+}
+.footer1-content a:hover {
+  /*color: #DCDCDC;*/
+}
+.cont > a {
+  text-align: center;
+  margin: 10px;
+  font-family: "Noto Sans Armenian";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #24a1ad;
+}
+/*.cont>a:hover{*/
+/*  color: #29293d;*/
+/*}*/
+.cont > p {
+  margin-left: 10px;
+  margin-top: 7px;
+  position: relative;
+  top: 0px;
+  font-family: "Noto Sans Armenian";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+}
+.main {
+  /* display: flex; */
+  /* border-bottom: 1px solid #B2B2B2; */
+  justify-content: flex-start;
+  align-items: center;
+}
+.box::-webkit-scrollbar-track {
+  border: 1px solid #000;
+  padding: 2px 0;
+  background-color: #404040;
+}
+
+.box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.box::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #dcdcdc;
+  border: 1px solid #000;
+}
+.img {
+  margin-left: 15px;
+}
+.border {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+.ajakicner {
+  display: inline-flex;
+}
+
+@media (max-width: 1450px) {
+  .footer1-content {
+    background: rgb(119, 119, 119, 0.8);
   }
-  .col{
-    position: absolute;
-  }
-  .footer1{
-    background-image: url("../images/Group 27.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
-    width: 100% !important;
-    height: 440px;
-  }
-  .footer1 a{
-    color: white;
-    text-decoration: none;
-  }
-  .footer1 p{
-    color: white;
-  }
-  .footer1-content{
-    width: 100%;
-    margin: 0 auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .footer1-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    border: none !important;
     text-align: center;
-    padding-top: 17px;
-    height: 181px;
-    background: rgba(255, 255, 255, 0.31);
-    border: 1px solid #FFFFFF;
-    backdrop-filter: blur(10px);
-    margin-top: 246px;
+    width: 100% !important;
+    margin: 0 auto;
   }
-  .ajak{
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    font-size: 20px;
 
+  .footer1-content {
+    line-height: 1.3;
+    padding: 25px 0;
+    height: 69%;
   }
-  .box{
-    position: absolute;
-    display: none;
-    background-color: white;
-    width: 350px;
-    height: 130px;
-    overflow-y: scroll;
-    scroll-behavior:blue;
+
+  .footer1-content a {
+    font-size: 16px !important;
   }
-  .ajak:onclick .box{
+
+  .ajakicner {
     display: block;
-
-  }
-  .footer1-content a:hover{
-    /*color: #DCDCDC;*/
-  }
-  .cont>a{
-      text-align: center;
-      margin: 10px;
-      font-family: 'Noto Sans Armenian';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 22px;
-      line-height: 30px;
-      color: #24A1AD;
-  }
-  /*.cont>a:hover{*/
-  /*  color: #29293d;*/
-  /*}*/
-  .cont>p{
-      margin-left: 10px;
-      margin-top: 7px;
-      position: relative;
-      top: 0px;
-      font-family: 'Noto Sans Armenian';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 22px;
-      line-height: 30px;
-      color: #000000;;
-  }
-  .main{
-      display: flex;
-      border-bottom: 1px solid #B2B2B2;
-      justify-content: flex-start;
-      align-items: center;
-  }
-  .box::-webkit-scrollbar-track {
-      border: 1px solid #000;
-    padding: 2px 0;
-      background-color: #404040;
   }
 
-  .box::-webkit-scrollbar {
-      width: 8px;
+  .ajak {
+    font-size: 17px;
   }
 
-  .box::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-      background-color: #DCDCDC;
-      border: 1px solid #000;
+  .border {
+    border: none !important;
   }
-  .img{
-    margin-left: 15px;
-  }
-  .border{
-    border:1px solid white;
-    border-radius: 5px;
-    margin:0 20px;
-  }
-  .ajakicner{
-    display:inline-flex;
-  }
-  @media only screen and (max-width: 320px) {
-    .footer1-content{
-       width: 100%;
-
-    }
-  }
-  @media only screen and (max-width: 700px) {
-  /*  .footer1{
-      width: 100%
-    }*/
-    .footer1-content{
-      display: flex;
-      flex-direction: column;
-      font-size: 18px;
-      border:none !important;
-      text-align: center;
-      width: 100% !important;
-      margin: 0 auto;
-
-  }
-  .border{
-    border:none !important;
-  }
-  .hth>a{
+  .hth > a {
     padding-top: 10px;
     font-size: 30px !important;
   }
-  .anv{
+  .anv {
     font-size: 20px;
-    margin-top:-19px;
+    margin-top: -19px;
   }
-  .footer1{
-    background-color: #2d3748;
+  .footer1 {
+    /* background-color: #2d3748; */
     height: 280px;
     font-family: sans-serif;
     overflow: hidden;
     width: 100% !important;
   }
-  .zex{
+  .zex {
     padding-top: 10px;
     font-size: 20px;
   }
-  .footer1-content{
+  .footer1-content {
     position: relative;
     width: 100%;
     top: -20px;
-      }
-  .col{
+  }
+  .col {
     margin-top: -21px;
   }
-  .box{
+  .box {
     position: absolute;
     display: none;
     background-color: white;
     width: 350px;
     height: 150px;
     overflow-x: hidden;
-    scroll-behavior:gray;
-    margin-left: 90px
-
+    scroll-behavior: gray;
+    margin-left: 90px;
   }
 
-  .cont>p{
+  .cont > p {
     margin-right: 110px;
     /*margin-top:-50px !important;*/
     position: relative;
-    top:15px;
+    top: 15px;
     font-size: 15px;
   }
-  .img{
-    margin-right:-5px;
+  .img {
+    margin-right: -5px;
   }
-
 }
+
 @media only screen and (max-width: 500px) {
-    body{
-      margin: 0 auto;
-      width: 100%
-    }
-    .footer{
+  body {
+    margin: 0 auto;
     width: 100%;
   }
-    .footer1-content{
+  .footer {
+    width: 100%;
+  }
+  .footer1-content {
     width: 100% !important;
   }
-  .box{
-    width:300px;
+  .box {
+    width: 300px;
     position: relative;
     height: 150px;
     margin: 0 -85px;
   }
-  .cont{
+  .cont {
     width: 200px;
     justify-content: center;
     text-align: center;
-    align-items:center;
+    align-items: center;
   }
-   .cont>p{
+  .cont > p {
     margin-right: 20px;
     /*margin-top:-50px !important;*/
     position: relative;
-    top:20px;
-    color:black;
-   /* font-size: 15px;
+    top: 20px;
+    color: black;
+    /* font-size: 15px;
      text-align: center;
      justify-content: center;
      align-items: center;*/
   }
-  .cont>a{
+  .cont > a {
     word-break: break-all;
     position: relative;
     top: 15px;
-    left:20px
+    left: 20px;
   }
-  .col{
+  .col {
     font-size: 15px;
   }
-  .ajakicner{
+  .ajakicner {
     font-size: 17px;
   }
-  .hth{
+  .hth {
     font-size: 17px !important;
   }
-  .zex{
+  .zex {
     font-size: 17px !important;
   }
-  .anv{
+  .anv {
     font-size: 17px !important;
+  }
+}
+
+@media (max-width: 374px) {
+  .footer1-content {
+    height: 75%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer1-content {
+    width: 100%;
   }
 }

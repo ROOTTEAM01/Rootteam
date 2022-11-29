@@ -82,12 +82,7 @@ You can now access the server at http://localhost:8000
 
 ***Note*** : You can quickly set the database information and other variables in this file and have the application fully working.
 
-----------
-
-# Testing API
-
-Run the laravel development server
-
+----------php artisan serve
     php artisan serve
 
 The api can now be accessed at

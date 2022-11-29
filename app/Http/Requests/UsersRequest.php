@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Session;
 
-class StudentRequest extends FormRequest
+class UsersRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -35,14 +35,13 @@ class StudentRequest extends FormRequest
         //     'phone'        => 'regex:~^\+?[0-9 \-]+$~'
         // ];
 
+
         return [
-            'name'    => 'string|required',
-            'email' => 'email|unique:students,email',
-            'comment'      => 'min:3|max:5000',
-            'agree_term',
-            'email'        => 'email|unique:students,email',
-            'age'          => 'numeric|min:10|max:55',
-            'phone'        => 'regex:~^\+?[0-9 \-]+$~'
+            'name'     => 'string|required',
+            'email'    => 'email|unique:users,email',
+            'type'     => 'required|in:user,student',
+            'password' => 'required|confirmed',
+            'password_confirmation' => 'required| min:4'
         ];
     }
 

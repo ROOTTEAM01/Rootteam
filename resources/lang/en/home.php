@@ -2,7 +2,8 @@
 
 
 return [
-
+	'name' => "Name Surname",
+	'hth' => "HTH",
 	'courses' => 'Courses',
 	'portfolio' => 'Portfolio',
 	'ourteam' => 'Our team',
