@@ -1036,7 +1036,7 @@
                             <li><i class="fa fa-check"></i> MVC, Laravel (additional)</li>
                         </ul>
                         <div class="pricing-content-btn pricing-btn ">
-                            <a class="btn btn-price" href="/register?course=python">{{__('home.signup')}}</a>
+                            <a class="btn btn-price" href="/register?course=php">{{__('home.signup')}}</a>
                         </div>
                     </div>
                 </div>
@@ -1079,7 +1079,7 @@
                             <li><i class="fa fa-check"></i> Diango</li>
                         </ul>
                         <div class="pricing-content-btn pricing-btn ">
-                            <a class="btn btn2" href="/register?course=front">{{__('home.signup')}}</a>
+                            <a class="btn btn2" href="/register?course=python">{{__('home.signup')}}</a>
                         </div>
                     </div>
                 </div>

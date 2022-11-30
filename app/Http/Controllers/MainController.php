@@ -17,10 +17,33 @@ class MainController extends Controller
 
     public function reg_form(Request $request)
     {
-        $type = isset($request->course) ? 'student' : 'user';
-        // dd("work");
-
-        return view('reg_form', ['type' => $type]);
+        $type = isset($request->course) ? $request->course : null;
+        $corces = [
+            'Full Stack Node Development',
+            'Full Stack PHP Development',
+            'Full Stack Python Development',
+            'Front End React Developmentv',
+            'Back End PHP Development'
+        ];
+        if ($type) {
+           
+            if ($type === 'node') {
+                $type = 'Full Stack Node Development';
+            } 
+            elseif ($type === 'php') {
+                $type = 'Full Stack PHP Development';
+            } 
+            elseif ($type === 'python') {
+                $type = 'Full Stack Python Development';
+            } 
+            elseif ($type === 'front') {
+                $type = 'Front End React Developmentv';
+            } 
+            elseif ($type === 'back') {
+                $type = 'Back End PHP Development';
+            }
+        } 
+        return view('reg_form', ['type' => $type,'corces' => $corces]);
     }
 
     public function sendmail(Request $r)

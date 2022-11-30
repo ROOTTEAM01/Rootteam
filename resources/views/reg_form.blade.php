@@ -9,12 +9,13 @@
 <link rel="stylesheet" href="{{asset('css/form_style.css')}}">
 @endsection
 @section('content')
+{!! $i = request()->get('cource') !!}
 <div class="size container">
     <div class="row m-0 p-0">
         <div class=" col-lg-6 col-xl-6 p-0 colLeft padd">
             <div class="main ">
+
                 <div class="container1">
-                    @if(request()->get('cource') === null)
                     <div class="appointment-form" id="appointment-form">
                         <h2>{{__('register.register')}}</h2>
                         <!-- <div class="container1-lodin">
@@ -41,11 +42,9 @@
                             <div class="under-input">
                                 <select name="course">
                                     <option value="" disabled selected>{{__('register.course')}}</option>
-                                    <option value="Full Stack Node Development">Full Stack Node Development</option>
-                                    <option value="Full Stack PHP Development">Full Stack PHP Development</option>
-                                    <option value="Full Stack Python Development">Full Stack Python Development</option>
-                                    <option value="Front End React Development">Front End React Development</option>
-                                    <option value="Back End PHP Development">Back End PHP Development</option>
+                                    @foreach($corces as $corce)
+                                    <option value="{{$corce}}" @if($corce==$type) selected @endif>{{ $corce }}</option>
+                                    @endforeach
                                 </select>
                             </div>
                             <div class="under-input">
@@ -146,9 +145,7 @@
                             </div> -->
 
                     </div>
-                    @else
 
-                    @endif
 
                 </div>
             </div>
