@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\UsersRequest;
 use App\Http\Requests\SubscribeRequest;
+use App\Mail\RegisterMail;
+use App\Mail\RegisterMailToUs;
 use App\Models\User;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
@@ -12,6 +14,7 @@ use App\Models\Student;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Hash;
+
 class MainController extends Controller
 {
 
@@ -39,20 +42,24 @@ class MainController extends Controller
 
         if ($validator->fails()) {
             return ['message' => $validator->errors(), 'success' => false];
-        } else {
-            Mail::send([], [], function ($message) use ($r) {
-                $message->to('colibrilabcenter@gmail.com')
-                    ->subject('Message to Colibrilab')
-                    ->from($r->email, $r->name)
-                    ->setBody("name {$r->name}<br>email - {$r->email}<br>message - {$r->message}", 'text/html');
-            });
-            return ['message' => __('main_lang.success'), 'success' => true];
         }
+
+        Mail::send([], [], function ($message) use ($r) {
+            $message->to('colibrilabcenter@gmail.com')
+                ->subject('Message to Colibrilab')
+                ->from($r->email, $r->name)
+                ->setBody("name {$r->name}<br>email - {$r->email}<br>message - {$r->message}", 'text/html');
+        });
+
+
+
+
+        return ['message' => __('main_lang.success'), 'success' => true];
     }
 
     public function subscribe(SubscribeRequest $subscribeRequest)
     {
-        $success =  Session::get('locale') === 'arm'
+        $success = Session::get('locale') === 'arm'
             ? 'Շնորհակալություն բաժանորդագրվելու համար'
             : 'Thank you for subscribing';
         Subscribe::query()->create($subscribeRequest->validated());
@@ -63,17 +70,17 @@ class MainController extends Controller
 
     public function register(UsersRequest $request)
     {
-        
-        if($request->agree === 'false') {
-            return response()->json(['message' => 'not valid'],422);
-        }
 
-        User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'type'  => $request->type,
-            'password' => Hash::make($request->password)
-        ]);
+//        if ($request->agree === 'false') {
+//            return response()->json(['message' => 'not valid'], 422);
+//        }
+
+//        User::create([
+//            'name'     => $request->name,
+//            'email'    => $request->email,
+//            'type'     => $request->type,
+//            'password' => Hash::make($request->password)
+//        ]);
         // $all_terms = $studentRequest->morningtime . ':' . $studentRequest->daytime . ':' . $studentRequest->eveningtime;
 
         // Student::query()->create($studentRequest->validated() + ['agree_term' => $all_terms]);
@@ -140,18 +147,23 @@ class MainController extends Controller
         //     $message->from('info@colibrilab.am', 'Colibrilab');
         // });
 
-        // Mail::send('email_to_us', [], function ($message) use ($subject) {
-        //     $message->to('colibrilabcenter@gmail.com', 'Colibrilab')->subject
-        //     ($subject);
-        //     $message->from('info@colibrilab.am', 'Colibrilab');
-        // });
+//         Mail::send('email_to_us', [], function ($message) use ($subject) {
+//             $message->to('colibrilabcenter@gmail.com', 'Colibrilab')->subject
+//             ($subject);
+//             $message->from('info@colibrilab.am', 'Colibrilab');
+//         });
+
+
+        Mail::to($request->email)->send(new RegisterMail($request->all()));
+//        Mail::to('gev.steparm@gmail.com')->send(new RegisterMailToUs($request->all()));
+
         if (count(Mail::failures()) > 0) {
             foreach (Mail::failures() as $email_failurs) {
                 return ['msg' => $email_failurs, 'success' => false];
             }
         }
 
-        $success =  Session::get('locale') === 'arm'
+        $success = Session::get('locale') === 'arm'
             ? 'Դուք հաջողությամբ գրանցվել եք։  ՈՒղարկվել է հաղորդագրություն Ձեր էլ․ հասցեին '
             : 'You signed successfully,we sent message to your email';
 
