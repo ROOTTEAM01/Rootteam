@@ -39,9 +39,9 @@ class UsersRequest extends FormRequest
         return [
             'name'     => 'string|required',
             'email'    => 'email|unique:users,email',
-            'type'     => 'required|in:user,student',
-            'password' => 'required|confirmed',
-            'password_confirmation' => 'required| min:4'
+//            'type'     => 'required|in:user,student',
+//            'password' => 'required|confirmed',
+//            'password_confirmation' => 'required| min:4'
         ];
     }
 
